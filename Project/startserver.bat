@@ -1,0 +1,1 @@
+streamlit run Project/app.py --server.port 25565 --server.headless true --server.enableCORS false --server.enableXsrfProtection false
