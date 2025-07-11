@@ -26,9 +26,9 @@ st.sidebar.markdown("""
 
 chat_box = st.container()
 
-"""
-初始化对话历史和查询历史
-"""
+#
+#初始化对话历史和查询历史
+#
 init_label = None
 if 'messages' not in st.session_state:
     st.session_state['messages'] = []
@@ -45,9 +45,9 @@ for message in st.session_state['messages']:
 
 
 
-"""
-用户输入及响应
-"""
+#
+#用户输入及响应
+#
 user_input = st.chat_input("您有什么想问的？", max_chars=2000)
 
 if user_input:
